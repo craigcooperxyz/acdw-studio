@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>ACDW – A Shopify Consulting Partnership</title>
+  <meta name="description" content="Archer Cooper Draper Whitaker is a consulting partnership specialising in helping Shopify businesses to solve customer experience problems.">
+  <meta name="author" content="ACDW">
+
+  <meta property="og:title" content="ACDW – Archer Cooper Draper Whitaker">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://acdw.studio">
+  <meta property="og:description" content="Archer Cooper Draper Whitaker is a consulting partnership specialising in helping Shopify businesses to solve customer experience problems.">
+  <meta property="og:image" content="image.png">
+
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="acdw-globe-logo.svg" type="image/svg+xml">
+
+  <style>
+
+    body {
+        background-color: #e4e4e4;
+        box-sizing: border-box;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 100%;
+        margin: 0;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    p {
+        margin-top: 2em;
+    }
+
+    .paper {
+        background-color: #fff;
+        box-shadow: 0px 25px 25px 10px rgba(0, 0, 0, 0.1);
+        margin: 8vw auto 0 auto;
+        box-sizing: border-box;
+        width: 90vw;
+        max-width: 60em;
+    }
+
+    .letterhead {
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        padding: 3vh;
+    }
+
+    .typewriter {
+        padding: 10vw;
+        box-sizing: border-box;
+    }
+
+    p.dateline {
+        text-align: right;
+    }
+
+    img.runner {
+        padding: 1vw;
+        box-sizing: border-box;
+        text-align: center;
+        margin: auto;
+    }
+
+    img.logo {
+        grid-column: 1 / 3;
+        text-align: center;
+        margin: 5vh auto;
+        box-sizing: border-box;
+    }
+
+    .break {
+        flex-basis: 100%;
+        height: 0;
+    }
+
+  </style>
+
+</head>
+
+<body>
+  <div class="paper">
+      <div class="letterhead">
+          <img class="runner" src="shopify.svg">
+          <img class="runner" src="name.svg">
+          <div class="break"></div>
+          <img class="logo" src="acdw-globe-logo.svg">
+      </div>
+      <div class="typewriter">
+          <p id="dateline" class="dateline" data-dateline>Apr 9, 2022</p>
+          <p>To whom it may concern;</p>
+          <p>In response to your query, <b>Archer Cooper Draper Whitaker</b> is a partnership of experienced Shopify experts, Craig Cooper & Keir Whitaker. Mr Draper is no longer with us.</p>
+          <p>Many of your peers have chosen to work with ACDW to strengthen their online commerce business. Our primary strengths lies with helping those online sellers using Shopify. Should you wish to avail of our services in that department, please contact New Business.</p>
+          <p>Should you wish to learn more about the individuals behind this collaboration you may contact either <a href="https:/www.archercooper.co.uk">Archer Cooper</a> (on behalf of Mr Cooper) or <a href="https://keirwhitaker.com">Keir Whitaker</a> (on behalf of Mr Whitaker, of course).</p>
+          <p>Enquiries should be directed to <a href="mailto:hello+acdw@archercooper.co.uk">New Business via electronic mail</a>. Your enquiry will be handled post haste.</p>
+          <p>I trust this has satisifed your curiosity. Should you require further information please do not hesitate to reach out to our <a href="mailto:hello+acdw@archercooper.co.uk">new business</a> department.</p>
+          <p>With kindest regards,</p>
+          <img class="logo" src="craig-signature.png">
+          <p>Craig Cooper,<br>Partner</p>
+      </div>
+  </div>
+    <script>
+        const today = new Date();
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        var date = today.toLocaleDateString('en-GB', options)
+        document.getElementById('dateline').innerHTML = date;
+    </script>
+</body>
+</html>
